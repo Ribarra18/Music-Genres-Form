@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <link rel="Stylesheet" href="styles.css" />
+
+    <meta charset="Utf-8" />
+    <title>Music Choices</title>
+    <h1>Music Choices</h1>
+    <form action="action_page.php" target="_blank" method="post">
+      <br />
+      <label for="name">Name</label><br />
+      <input type="text" name="name" id="name" required="" /><br />
+      <br />
+      <label for="email">Email:</label><br />
+      <input type="email" name="email" id="email" required="" /><br />
+      <br />
+      <label for="age">Age (optional):</label><br />
+      <input type="age" name="age" id="age" required="" /><br />
+      <br />
+      <br />
+      <label for="CurrentRole">
+        <font>Which describes your favorite genre of music?</font>
+      </label>
+      <select name="favoriteGenre">
+        <option value="Pop">Pop</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Country">Country</option>
+        <option value="Opera">Opera</option>
+        <option value="Other">Other</option>
+      </select>
+      <br />
+      <br />
+      <label for="Reccomend to friend">
+        <font>What genre do you recommend?</font> </label
+      ><br /><input name="Pop" id="Pop" type="radio" />
+      <label for="Pop"> <font>Pop</font> </label><br />
+      <input name="Jazz" id="Jazz" type="radio" />
+      <label for="Jazz"> <font>Jazz</font> </label><br />
+      <input name="Country" id="Country" type="radio" />
+      <label for="Country"> <font>Country</font> </label><br />
+      <input name="Opera" id="Opera" type="radio" />
+      <label for="Opera">
+        <font>Opera</font>
+      </label>
+
+      <br />
+      <br />
+      <br />
+
+      <label for="Favorite instrument">
+        <font>What is your favorite instrument?</font>
+      </label>
+      <br /><select name="Percussion">
+        <option value="Percussion">Percussion</option>
+        <option value="Woodwinds">Woodwinds</option>
+        <option value="Vocals">Vocals</option>
+        <option value="Strings">Strings</option>
+      </select>
+      <br /><br />
+      <label for="What is your favorite part of a song?">
+        <font>What is your favorite part of a song?</font>
+      </label>
+      <br />
+      <input name="Intro" id="Intro" type="checkbox" />
+      <label for="Intro">
+        <font>Intro</font>
+      </label>
+      <br />
+      <input name="Verse" id="Verse" type="checkbox" />
+      <label for="Verse">
+        <font>Verse</font>
+      </label>
+      <br />
+      <input name="Chorus" id="Chorus" type="checkbox" />
+      <label for="Chorus">
+        <font>Chorus</font>
+      </label>
+      <br /><br />
+      <label for="Artist Suggestions">Artist suggestions?</label>
+      <br />
+      <textarea id="freeform" name="freeform" rows="4" cols="50">
+Enter text here...
+</textarea
+      >
+      <input type="Checkbox" name="Confirm" id="Confirm" value="Confirm" />
+      <label for="Confirm">
+        <font
+          >By Signing Up, You Agree To The
+          <a href="TermsofS.Com">Terms Of Service.</a></font
+        >
+      </label>
+
+      <br /><br />
+
+      <input type="SUBMIT" />
+    </form>
+  </head>
+</html>
